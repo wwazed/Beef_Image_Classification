@@ -1,5 +1,5 @@
-# Beef Image Classification with TensorFlow
-This repository contains a notebook for meat classification using a deep learning approach with TensorFlow. The main purpose of the notebook is to build a model based on ResNet50 architecture to classify fresh and rotten meat from images.
+# Beef Image Classification with Mini TensorFlow and TFLite
+This repository contains a notebook for meat classification using a deep learning approach with TensorFlow Mini and TFLite. The main purpose of the notebook is to build a model based on ResNet50 architecture to classify fresh and rotten meat from images.
 ## Key Features
 The notebook focuses on building a meat classification model using TensorFlow and Keras. It begins by importing necessary libraries and setting up paths for training and testing datasets. A TensorFlow dataset is generated for efficient data loading, followed by constructing a model based on a pre-trained ResNet50 architecture, which is fine-tuned with additional layers to match the classification task. The model is compiled, trained with early stopping and learning rate reduction for optimal performance, and saved upon completion. Finally, the model is evaluated on the test dataset, and results are visualized through a classification report and confusion matrix to understand the performance across the two meat classes.
 ## Data Preprocessing
